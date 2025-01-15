@@ -204,27 +204,6 @@ h1, h2 {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-#booking-form {
-    display: grid;
-    gap: 1rem;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-#booking-form input,
-#booking-form textarea {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    transition: border-color 0.3s ease;
-}
-
-#booking-form input:focus,
-#booking-form textarea:focus {
-    border-color: var(--primary-color);
-    outline: none;
-}
 
 .contact-content {
     display: flex;
